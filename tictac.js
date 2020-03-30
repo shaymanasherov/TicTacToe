@@ -85,8 +85,8 @@ function addEventActionFrom_xORoFunction()
 }
 function donatefunc()
 {
-    var myWindow = window.open("", "MsgWindow", "width=200, height=100");
-    myWindow.document.write("<p>This is 'MsgWindow'. I am 200px wide and 100px tall!</p>");
+    var donateButton = window.open("", "Donate", "width=200, height=100");
+    donateButton.document.write("<p>Thanks for donate</p>");
 }
 function removeEventActioFrom_xORoFunction(){
 	for(let i=0;i<td.length;i++)
