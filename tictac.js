@@ -33,9 +33,15 @@ againstComputerButton.addEventListener('click',function()
 //Donate
 donateButton.addEventListener('click',function()
 	{	
-  		alert("Thanks for donate");
+  		Reset();
+		state = "donate";//change state variable to donate
+		donatefunc();
 });
 
+function donatefunc()
+{
+    alert("Thanks for donate");
+}
 //like a main function , when this function called i do everything 
 function xORo(e)
 {
