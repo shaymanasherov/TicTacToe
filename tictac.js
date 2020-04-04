@@ -32,10 +32,8 @@ againstComputerButton.addEventListener('click',function()
 });
 //Donate
 donateButton.addEventListener('click',function()
-	{
-		Reset();
-		state = "donate";//change state variable to donate
-		donatefunc();
+	{	
+  		alert("Thanks for donate");
 });
 
 //like a main function , when this function called i do everything 
@@ -82,10 +80,6 @@ function addEventActionFrom_xORoFunction()
 		 //for each square in the table call to xORo function and chagne depending the situation
 		 td[i].addEventListener('click',xORo);
 
-}
-function donatefunc()
-{
-  alert("Thanks for donate");
 }
 function removeEventActioFrom_xORoFunction(){
 	for(let i=0;i<td.length;i++)
