@@ -85,8 +85,7 @@ function addEventActionFrom_xORoFunction()
 }
 function donatefunc()
 {
-    var donateButton = window.open("", "Donate", "width=200, height=100");
-    donateButton.document.write("<p>Thanks for donate</p>");
+  alert("Thanks for donate");
 }
 function removeEventActioFrom_xORoFunction(){
 	for(let i=0;i<td.length;i++)
